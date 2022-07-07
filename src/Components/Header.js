@@ -30,6 +30,9 @@ const Header=({username,darkTheme,setDarkTheme}) =>{
       <li className="nav-item">
       <NavLink className="nav-link" to="/registerpage">register</NavLink>
       </li>
+      <li className="nav-item">
+      <NavLink className="nav-link" to="/homepage">Home</NavLink>
+      </li>
     
       <li className="nav-item">
      <Switch

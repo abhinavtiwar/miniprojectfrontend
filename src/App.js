@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { useState } from "react";
 import Login from "./Components/Login";
+import Home from "./Components/Home";
 import Preview from "./Components/Preview";
 import Register from "./Components/Register";
 
@@ -48,6 +49,7 @@ function App() {
             <Route element={<Login />} path="loginpage" />
             <Route element={<Preview />} path="previewpage" />
             <Route element={<Register />} path="registerpage" />
+            <Route element={<Home />} path="homepage" />
           
           </Routes>
          
