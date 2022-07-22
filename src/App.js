@@ -1,20 +1,20 @@
 
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar";
+import Intro from "./components/Intro";
+import Services from "./components/Services";
+import Experience from "./components/Experience";
+import Works from "./components/Works";
+import Portfolio from "./components/Portfolio";
+import Testimonial from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context"; 
 
 
- 
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
