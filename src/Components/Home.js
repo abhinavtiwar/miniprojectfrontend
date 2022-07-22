@@ -1,16 +1,11 @@
-const Home=() =>{
-    return  <div className="container">
-        <div className="row">
-            <div className="col-md-3">
-                <div className="card">
-                    <div className="card-body">
-                        
-                    </div> 
-                </div>
-            </div>
-        </div>
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>
+    
     </div>
+  )
 }
 
-
-export default Home;
+export default Home
