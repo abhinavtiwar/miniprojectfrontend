@@ -1,5 +1,5 @@
 import React from "react";
-
+import {FloatingDiv } from "react";
 import './FloatingDiv.css'
 
 
