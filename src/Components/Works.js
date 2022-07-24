@@ -23,7 +23,7 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
+          <span>Brands & Clients As a Preview Generation Tool</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
@@ -35,7 +35,7 @@ const Works = () => {
             ispum is simpley dummy text of printing
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Contact Me</button>
           </Link>
           <div
             className="blur s-blur1"
