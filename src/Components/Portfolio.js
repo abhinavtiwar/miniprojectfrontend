@@ -5,7 +5,7 @@ import "swiper/css";
 import Sidebar from "../img/sidebar.png";
 import Ecommerce from "../img/ecommerce.png";
 import HOC from "../img/hoc.png";
-import Preview from "../img/preview.png";
+import Pdf1 from "../img/pdf1.png";
 import Compress1 from "../img/vidiocompress.jpg";
 import Compress2 from "../img/vidiocompress1.jpg";
 import Pdf from "../img/thumbsnail.png";
@@ -22,13 +22,13 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
+        spaceBetween={5}
+        slidesPerView={4}
         grabCursor={true}
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Preview} alt="" />
+          <img src={Pdf1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Pdf} alt="" />
