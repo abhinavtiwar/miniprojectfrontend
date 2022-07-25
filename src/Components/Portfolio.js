@@ -5,6 +5,10 @@ import "swiper/css";
 import Sidebar from "../img/sidebar.png";
 import Ecommerce from "../img/ecommerce.png";
 import HOC from "../img/hoc.png";
+import Preview from "../img/preview.png";
+import Compress1 from "../img/vidiocompress.jpg";
+import Compress2 from "../img/vidiocompress1.jpg";
+import Pdf from "../img/thumbsnail.png";
 import MusicApp from "../img/musicapp.png";
 import { themeContext } from "../Context";
 const Portfolio = () => {
@@ -13,8 +17,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span style={{color: darkMode?'white': ''}}>With Recent Projects</span>
+      <span>Tool Used</span>
 
       {/* slider */}
       <Swiper
@@ -24,16 +28,16 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={Preview} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Pdf} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={Compress1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={Compress2 } alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import UploadFile from "./components/UploadFile";
 import Intro from "./components/Intro";
+import Login from "./components/Login";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Works from "./components/Works";
@@ -32,7 +33,7 @@ function App() {
       <Services />
       
       <Experience />
-      <UploadFile />
+      
       <Works />
       <Portfolio />
       <Testimonial />

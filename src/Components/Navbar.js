@@ -40,7 +40,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="UploadFile" spy={true} smooth={true}>
+              <Link to="uploadpage" spy={true} smooth={true}>
                 UploadFile
               </Link>
             </li>
