@@ -1,15 +1,17 @@
 
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Intro from "./Components/Intro";
-import Services from "./Components/Services";
-import Experience from "./Components/Experience";
-import Works from "./Components/Works";
-import Portfolio from "./Components/Portfolio";
-import Testimonial from "./Components/Testimonials";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar";
+import UploadFile from "./components/UploadFile";
+import Intro from "./components/Intro";
+import Login from "./components/Login";
+import Services from "./components/Services";
+import Experience from "./components/Experience";
+import Works from "./components/Works";
+import Portfolio from "./components/Portfolio";
+import Testimonial from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context"; 
 
@@ -26,22 +28,18 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-    <BrowserRouter>
-         
-    <Routes>
-      <Route element={<Navbar />} path="Navbar" />
-      <Route element={<Intro />} path="intropage" />
-      <Route element={<Services />} path="services" />
-      <Route element={<Experience />} path="experiencepage" />
-      <Route element={<Works />} path="works" />
-      <Route element={<Portfolio />} path="portfolio" />
-      <Route element={<Testimonial />} path="testimonial" />
-      <Route element={<Contact />} path="contact" />
-      <Route element={<Footer />} path="footerpage" />
-    
-    </Routes>
-   
-  </BrowserRouter>
+    <Navbar />
+     
+      <Services />
+      
+      <Experience />
+      
+      <Works />
+      <Portfolio />
+      <Testimonial />
+      <Contact />
+      <Footer />
+  
     </div>
   );
 }
