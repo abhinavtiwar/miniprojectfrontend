@@ -55,6 +55,11 @@ const Navbar = () => {
                 Login
               </NavLink>
             </li>
+            <li>
+              <NavLink to="signuppage" spy={true} smooth={true}>
+                Signup
+              </NavLink>
+            </li>
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>

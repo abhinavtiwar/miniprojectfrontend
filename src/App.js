@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import UploadFile from "./components/UploadFile";
 import Dashboard from "./components/Dashboard";
+import Signup from "./components/Signup";
 import Intro from "./components/Intro";
 import Login from "./components/Login";
 import Services from "./components/Services";
@@ -48,6 +49,7 @@ function App() {
             <Route element={<UploadFile  />} path="upload" />
             <Route element={<Dashboard  />} path="dashboard" />
             <Route element={<Login  />} path="loginpage" />
+            <Route element={<Signup  />} path="signuppage" />
             
             
             
