@@ -1,15 +1,15 @@
 
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./Components/Navbar";
+import Intro from "./Components/Intro";
+import Services from "./Components/Services";
+import Experience from "./Components/Experience";
+import Works from "./Components/Works";
+import Portfolio from "./Components/Portfolio";
+import Testimonial from "./Components/Testimonials";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context"; 
 
