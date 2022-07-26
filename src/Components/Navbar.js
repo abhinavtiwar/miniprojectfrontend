@@ -15,30 +15,32 @@ const Navbar = () => {
       <div className="n-right">
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
-          <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+          
+            <li>
+              <NavLink to="home" spy={true} smooth={true}>
                 Home
-              </Link>
+              </NavLink>
             </li>
+          
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <NavLink to="services" spy={true} smooth={true}>
                 Serivces
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="works" spy={true} smooth={true}>
+              <NavLink to="works" spy={true} smooth={true}>
                 Experience
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="portfolio" spy={true} smooth={true}>
+              <NavLink to="portfolio" spy={true} smooth={true}>
                 Protfolio
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="testimonial" spy={true} smooth={true}>
+              <NavLink to="testimonial" spy={true} smooth={true}>
                 Testimonial
-              </Link>
+              </NavLink>
             </li>
             <li>
               <NavLink to="upload" spy={true} smooth={true}>
@@ -62,9 +64,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
+        <NavLink to="contact" spy={true} smooth={true}>
         <button className="button n-button">Contact</button>
-        </Link>
+        </NavLink>
       </div>
     </div>
   );
