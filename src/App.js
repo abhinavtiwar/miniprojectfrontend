@@ -29,7 +29,7 @@ function App() {
       }}
     >
     <Navbar />
-     
+
       <Services />
       
       <Experience />
