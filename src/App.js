@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import UploadFile from "./components/UploadFile";
+import Dashboard from "./components/Dashboard";
 import Intro from "./components/Intro";
 import Login from "./components/Login";
 import Services from "./components/Services";
@@ -28,18 +29,34 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-    <Navbar />
-     
-      <Services />
-      
+   
+      <BrowserRouter>
+        <Navbar />
+        <Services />
       <Experience />
-      
       <Works />
       <Portfolio />
       <Testimonial />
       <Contact />
       <Footer />
-  
+        
+         
+          <Routes>
+          
+           
+           
+            <Route element={<UploadFile  />} path="upload" />
+            <Route element={<Dashboard  />} path="dashboard" />
+            <Route element={<Login  />} path="loginpage" />
+            
+            
+            
+           
+           
+          
+          </Routes>
+         
+        </BrowserRouter>
     </div>
   );
 }
