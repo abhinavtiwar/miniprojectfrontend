@@ -7,6 +7,7 @@ import Dashboard from "./components/Dashboard";
 import Signup from "./components/Signup";
 import Intro from "./components/Intro";
 import Login from "./components/Login";
+import Home from "./components/Home";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Works from "./components/Works";
@@ -32,14 +33,7 @@ function App() {
     >
    
       <BrowserRouter>
-        <Navbar />
-        <Services />
-      <Experience />
-      <Works />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Footer />
+      <Navbar />
         
          
           <Routes>
@@ -47,6 +41,7 @@ function App() {
            
            
             <Route element={<UploadFile  />} path="upload" />
+            <Route element={<Home />} path="home" />
             <Route element={<Dashboard  />} path="dashboard" />
             <Route element={<Login  />} path="loginpage" />
             <Route element={<Signup  />} path="signuppage" />
