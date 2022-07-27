@@ -1,5 +1,6 @@
 import React from 'react'
 import Services from "../components/Services";
+import Intro from "../components/Intro";
 import Experience from "../components/Experience";
 import Works from "../components/Works";
 import Portfolio from "../components/Portfolio";
@@ -11,6 +12,7 @@ const Home = () => {
     <div>
     
     <Services />
+   
   <Experience />
   <Works />
   <Portfolio />

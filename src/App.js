@@ -5,16 +5,8 @@ import Navbar from "./components/Navbar";
 import UploadFile from "./components/UploadFile";
 import Dashboard from "./components/Dashboard";
 import Signup from "./components/Signup";
-import Intro from "./components/Intro";
 import Login from "./components/Login";
 import Home from "./components/Home";
-import Services from "./components/Services";
-import Experience from "./components/Experience";
-import Works from "./components/Works";
-import Portfolio from "./components/Portfolio";
-import Testimonial from "./components/Testimonials";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context"; 
 

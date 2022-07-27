@@ -47,11 +47,7 @@ const Navbar = () => {
                 UploadFile
               </NavLink>
               </li>
-            <li>
-              <NavLink to="dashboard" spy={true} smooth={true}>
-                DashBoard
-              </NavLink>
-              </li>
+           
             <li>
               <NavLink to="login" spy={true} smooth={true}>
                 Login
