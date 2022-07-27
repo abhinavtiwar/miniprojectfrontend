@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -8,9 +7,7 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import { useContext } from "react";
-import { themeContext } from "./Context"; 
-
-
+import { themeContext } from "./Context";
 
 function App() {
   const theme = useContext(themeContext);
@@ -23,33 +20,19 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-   
       <BrowserRouter>
-      <Navbar />
-        
-         
-          <Routes>
-          
-           
-           
-            <Route element={<UploadFile  />} path="upload" />
-            <Route element={<Home />} path="home" />
-            <Route element={<Dashboard  />} path="dashboard" />
-            <Route element={<Login  />} path="loginpage" />
-            <Route element={<Signup  />} path="signuppage" />
-            
-            
-            
-           
-           
-          
-          </Routes>
-         
-        </BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route element={<UploadFile />} path="upload" />
+          <Route element={<Home />} path="home" />
+          <Route element={<Intro />} path="intro" />
+          <Route element={<Dashboard />} path="dashboard" />
+          <Route element={<Login />} path="loginpage" />
+          <Route element={<Signup />} path="signuppage" />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
-
- 
 
 export default App;

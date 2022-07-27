@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Services from "../components/Services";
 import Intro from "../components/Intro";
 import Experience from "../components/Experience";
@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
+<<<<<<< HEAD
     
     <Services />
    
@@ -19,8 +20,17 @@ const Home = () => {
   <Testimonial />
   <Contact />
   <Footer />
+=======
+      <Services />
+      <Experience />
+      <Works />
+      <Portfolio />
+      <Testimonial />
+      <Contact />
+      <Footer />
+>>>>>>> 5387b3511fe05bc22763142ab79b007e2bce7958
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
