@@ -10,17 +10,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
-<<<<<<< HEAD
-    
-    <Services />
-   
-  <Experience />
-  <Works />
-  <Portfolio />
-  <Testimonial />
-  <Contact />
-  <Footer />
-=======
+      <Intro />
       <Services />
       <Experience />
       <Works />
@@ -28,7 +18,7 @@ const Home = () => {
       <Testimonial />
       <Contact />
       <Footer />
->>>>>>> 5387b3511fe05bc22763142ab79b007e2bce7958
+
     </div>
   );
 };
